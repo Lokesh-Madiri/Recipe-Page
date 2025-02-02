@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #f4e7de;
+    background-color: hsl(330, 100%, 98%);
     display: flex;
     justify-content: center;
     
@@ -18,7 +18,6 @@ body{
     background-color: aliceblue;
     max-width: 40%;
     width: auto;
-
 }
 
 .firstpart figure img{
@@ -46,15 +45,18 @@ body{
     margin-top: 25px;
     background-color: rgba(255, 192, 203, 0.448);
     border-radius : 4px;
+    padding: 5px;
 }
 
 .MainPage .preptime p{
     font-size: 25px;
     padding: 3px;
     font-style: bold;
+    margin-left : 7px;
 }
 
 .MainPage .preptime ul li{
+    margin-left: 8px;
     padding: 6px;
     list-style-position: inside;
 }
@@ -71,4 +73,27 @@ body{
 
 .MainPage #ingredients ul li{
     margin: 6px;
+}
+
+.MainPage #ingredients hr{
+    margin-top: 25px;
+}
+
+.MainPage #Instructions h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: brown;
+}
+
+.MainPage #Instructions ol{
+    margin-left: 20px;
+    line-height: 20px;
+}
+
+.MainPage #Instructions ol li::marker{
+    color: brown;
+}
+.MainPage #Instructions ol li{
+   padding-left: 15px; 
 }
