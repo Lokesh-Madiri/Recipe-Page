@@ -15,7 +15,7 @@ body{
     padding: 20px;
     display: flex;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: white;
     max-width: 40%;
     width: auto;
 }
@@ -37,7 +37,7 @@ body{
 }
 
 .MainPage p{
-    font-size: 19px;
+    font-size: 16px;
 }
 
 .MainPage .preptime{   
@@ -94,6 +94,29 @@ body{
 .MainPage #Instructions ol li::marker{
     color: brown;
 }
+
 .MainPage #Instructions ol li{
-   padding-left: 15px; 
+   padding-left: 15px;
+   padding-bottom: 8px; 
+}
+
+.MainPage #Nutrition h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: brown;
+}
+
+.MainPage #Nutrition p{
+    margin-bottom: 15px;
+}
+
+.MainPage #Nutrition #table{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(10px,1fr));
+}
+
+.MainPage #Nutrition #table div{
+    padding: 10px;
+    border-bottom: 1px rgba(0, 0, 0, 0.151) solid;
 }
